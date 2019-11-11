@@ -9,8 +9,8 @@ Get 5 in a row horizontally, diagonally or vertically before your opponent.
 # Installation
 ```shell
 mkdir gomoku
-cd gomoku
-git clone https://github.com/mohsentaleb/gomoku .
+cd gomoku-react
+git clone https://github.com/mohsentaleb/gomoku-react.git .
 npm install
 npm start
 ```
