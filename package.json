@@ -2,9 +2,7 @@
   "name": "gomoku",
   "version": "0.1.0",
   "dependencies": {
-    "enzyme": "^3.10.0",
     "react": "^16.11.0",
-    "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
@@ -19,7 +17,9 @@
     "extends": "react-app"
   },
   "jest": {
-    "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ]
   },
   "browserslist": {
     "production": [
@@ -34,6 +34,8 @@
     ]
   },
   "devDependencies": {
-    "enzyme-adapter-react-16": "^1.15.1"
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme": "^3.10.0",
+    "react-addons-test-utils": "^15.6.2"
   }
 }
